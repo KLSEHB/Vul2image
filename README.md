@@ -21,12 +21,15 @@ images. The software information we collect is as follows:
 ![image](https://github.com/KLSEHB/Vul2image/assets/142284636/2cba528c-930a-46ab-b22c-13fe058de843)
 
 All corresponding RGB images produced are provided in this repository.
+
 [1]Lin, Guanjun, Wei Xiao, Jun Zhang, and Yang Xiang. ”Deep learning-
 based vulnerable function detection: A benchmark.” In Proceedings of
 the 2019 International Conference on Information and Communications
 Security (ICICS’19), pp. 219-232, 2019.
+
 [2] Gkortzis, Apostolos, Dimitris Mitropoulos, and Diomidis Spinellis.
 ”VulinOSS: A Dataset of Security Vulnerabilities in Open-Source Sys-
 tems.” In 2018 IEEE/ACM 15th International Conference on Mining
 Software Repositories (MSR), 2018.
+
 [3] National Vulnerability Database. https://nvd.nist.gov.
