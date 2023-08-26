@@ -1,4 +1,4 @@
-# Vul2image
+# Vul2Image
 To validate Vul2Image, our dataset
 comprises 8,242 vulnerable and 14,676 non-vulnerable C/C++
 functions from the SARD. Moreover, we integrated datasets
