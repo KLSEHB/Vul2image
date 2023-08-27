@@ -2,4 +2,5 @@
 134,750 files were converted into 1,731,072 RGB images, and the corresponding dataset is linked as follows: Open-source software dataset. 
 Download： https://pan.baidu.com/s/1_gMgkMhjs_xO1OiN_s8JVA?pwd=26ou
 
-
+Our validation dataset consists of 8,402 vulnerable functions and 15,451 non-vulnerable functions and the corresponding dataset is linked as follows Dataset.
+23853 images： https://github.com/KLSEHB/Vul2image/edit/main/Vul2image_dataset
