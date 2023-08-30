@@ -1,7 +1,7 @@
 # Vul2Image
 To validate Vul2Image, our dataset
 comprises 8,242 vulnerable and 14,676 non-vulnerable C/C++
-functions from the SARD([Source code dataset link](https://pan.baidu.com/s/1_VFTR9FTq-pQOsy1SkQBRA?pwd=8878 )
+functions from the SARD([Source code dataset](https://pan.baidu.com/s/1_VFTR9FTq-pQOsy1SkQBRA?pwd=8878)
 ). Moreover, we integrated datasets
 from references [1], [2] and the National Vulnerability
 Database (NVD) [3], totaling 935 real software functions
