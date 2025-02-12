@@ -49,6 +49,8 @@ Data statistics of the dataset are shown in the below table:
 
 Code of C2PCVF，IR and Image generation are all in “1.Preprocessing code” 
 
+Environment：A Linux server equipped with a 28-core, 56-thread CPU, 1TB of RAM, and four RTX A40 GPUs
+
 #### Convert source code to image
 ```shell
 cd ~/Vul2image
