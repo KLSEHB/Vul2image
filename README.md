@@ -3,7 +3,8 @@
 ## Dataset
 Our dataset is derived from the Software Assurance Reference Dataset (SARD). In addition to SARD, we have also utilized datasets from VulCNN and Devign. Links to the relevant sources are provided below.
 
-![image](https://github.com/user-attachments/assets/430d9548-c09d-479e-a085-271897ad7671)
+![image](https://github.com/user-attachments/assets/d08a9b87-913c-4928-a92d-62d363449edf)
+
 
 Vul2image dataset:  "https://pan.baidu.com/s/1ziFx3AspuWU89zZX8ChBbw?pwd=hbx4"
 
