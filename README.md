@@ -1,7 +1,7 @@
 # Vul2image: A Quick Image-inspired and CNN-based Vulnerability Detection system
 
 ## Dataset
-Our dataset is derived from the Software Assurance Reference Dataset (SARD). In addition to SARD, we have also utilized datasets from VulCNN and Devign. Links to the relevant sources are provided below.
+Our dataset is derived from the Software Assurance Reference Dataset (SARD)[1]. In addition to SARD, we have also utilized datasets from VulCNN and Devign. Links to the relevant sources are provided below.
 
 ![image](https://github.com/user-attachments/assets/d08a9b87-913c-4928-a92d-62d363449edf)
 
@@ -58,14 +58,4 @@ cd ~/Vul2image/scr/CNN
 python CNN_pytorch.py 
 ```
 
-[1]Lin, Guanjun, Wei Xiao, Jun Zhang, and Yang Xiang. ”Deep learning-
-based vulnerable function detection: A benchmark.” In Proceedings of
-the 2019 International Conference on Information and Communications
-Security (ICICS’19), pp. 219-232, 2019.
-
-[2] Gkortzis, Apostolos, Dimitris Mitropoulos, and Diomidis Spinellis.
-”VulinOSS: A Dataset of Security Vulnerabilities in Open-Source Sys-
-tems.” In 2018 IEEE/ACM 15th International Conference on Mining
-Software Repositories (MSR), 2018.
-
-[3] National Vulnerability Database. https://nvd.nist.gov.
+[1] National Vulnerability Database. https://nvd.nist.gov.
