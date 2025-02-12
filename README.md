@@ -17,9 +17,10 @@ and FreeType, spanning different versions of these systems and
 software. Our analysis encompassed approximately 130,000
 files, totaling around 67.35 million lines of the source code. In
 the analysis, 134,750 files were converted into 1,731,072 RGB
-images, and the corresponding dataset is linked as follows: [Open-source software dataset](https://pan.baidu.com/s/1_gMgkMhjs_xO1OiN_s8JVA?pwd=26ou). The software information we collect is as follows:
+images, and the corresponding dataset is linked as follows: [Open-source software dataset](https://pan.baidu.com/s/1_gMgkMhjs_xO1OiN_s8JVA?pwd=26ou) or https://pan.baidu.com/s/13SwIcuMM8WGIecgoM2PTBA?pwd=an2s. The software information we collect is as follows:
 
 ![image](https://github.com/KLSEHB/Vul2image/assets/142284636/2cba528c-930a-46ab-b22c-13fe058de843)
+
 
 All corresponding RGB images produced are provided in this repository.
 
