@@ -1,0 +1,16 @@
+Input;Entry Point;getchar(-1,0,-1,()),cin(-1,0,-1,()),GetDlgItemTextA(0,0,-1,()),GetDlgItemText(0,0,-1,()),GetDlgItemTextW(0,0,-1,())
+,GetWindowText(0,0,-1,()),GetWindowTextA(0,0,-1,()),GetWindowTextW(0,0,-1,()),scanf(0,0,-1,()),fscanf(0,3,-1,(-1,1),(-1,1),(1,1)),getpass(0,0,-1,())
+,gets(0,0,-1,()),getc(0,0,-1,()),getche(-1,0,-1,()),kbhit(-1,0,-1,()),getch(-1,0,-1,()),read(0,0,-1,()),accept(0,0,-1,()),acceptEx(0,0,-1,())
+,ReadFile(0,0,-1,()),ReadFileEx(0,0,-1,()),fgetc(0,0,-1,()),fgetchar(-1,0,-1,()),fgets(0,3,-1,(1,1),(-1,1),(-1,1)),fgetws(0,3,-1,(1,1),(-1,1),(-1,1)),fgetwc(0,0,-1,()),vscanf(0,0,-1,())
+,vfscanf(0,0,-1,()),get(1,0,-1,()),RAND32(-1,0,-1,()),getline(1,0,-1,()),peek(-1,0,-1,()),recv(0,4,-1,()),recvfrom(0,0,-1,()),readlink(0,0,-1,()),sscanf(0,0,-1,())
+,swscanf(0,0,-1,()),malloc(0,0,-1,()),GetKeyNameText(0,0,-1,()),calloc(0,0,-1,()),GetCValue(-1,0,-1,());ss;Sensitive sink;SendMessage(0,0,1,()),SendMessageCallback(0,0,1,())
+,SendNotifyMessage(0,0,1,()),PostMessage(0,0,1,()),PostThreadMessage(0,0,1,()),memcpy(0,3,1,(1,1),(-1,1),(-1,1)),wmemcpy(0,0,1,()),_memccpy(0,0,1,()),memmove(0,3,1,(1,1),(-1,1),(-1,1))
+,wmemmove(0,0,1,()),wmemset(0,0,1,()),memcmp(0,0,1,()),wmemcmp(0,0,1,()),memchr(0,0,1,()),wmemchr(0,0,1,()),strncpy(0,3,1,(1,1),(-1,1),(-1,1))
+,_strncpy(0,0,1,()),lstrcpyn(0,0,1,()),_tcsncpy(0,0,1,()),_mbsnbcpy(0,0,1,()),_wcsncpy(0,0,1,()),wcsncpy(0,3,1,(1,1),(-1,1),(-1,1)),fwrite(0,4,1,(-1,-1),(-1,-1),(-1,-1),(1,-1)),putchar(0,1,1,(-1,-1)),PUTS(0,1,1,(-1,-1)),REMOVE(0,1,1,(-1,-1)),ImpersonateSelf(0,1,1,(-1,-1)),putwchar(0,1,1,(-1,-1)),putc(0,2,1,(-1,-1),(-1,-1)),fputwc(0,2,1,(-1,-1),(-1,-1)),putwc(0,2,1,(-1,-1),(-1,-1)),fputws(0,2,1,(-1,-1),(-1,-1)),RENAME(0,2,1,(-1,-1),(-1,-1)),fputc(0,2,1,(-1,-1),(-1,-1)),fputs(0,2,1,(-1,-1),(-1,-1)),CreateNamedPipeA(0,8,1,(-1,-1),(-1,-1),(-1,-1),(-1,-1),(-1,-1),(-1,-1),(-1,-1),(-1,-1)),strncat(0,3,1,(1,1),(-1,1),(-1,1)),
+_strncat(0,0,1,())
+,_mbsncat(0,0,1,()),wcsncat(0,3,1,(1,1),(-1,1),(-1,1)),bcopy(0,0,1,()),strcpy(0,2,1,(1,1),(-1,1)),lstrcpy(0,0,1,()),lstrcpyA(0,0,1,()),lstrcpyW(0,0,1,()),lstrcpynA(0,0,1,())
+,lstrcpynW(0,0,1,()),wcscpy(0,2,1,(1,1),(-1,1)),_tcscpy(0,0,1,()),_mbscpy(0,0,1,()),CopyMemory(1,0,1,()),strcat(0,2,1,(1,1),(-1,1)),wcscat(0,2,1,(1,1),(-1,1)),lstrcat(0,0,1,()),lstrlen(0,0,1,())
+,strchr(0,0,1,()),strcmp(0,0,1,()),strcoll(0,0,1,()),strcspn(0,0,1,()),strpbrk(0,0,1,()),strrchr(0,0,1,()),strspn(0,0,1,())
+,strstr(0,0,1,()),strxfrm(0,0,1,()),printf(0,0,1,()),vprintf(0,0,1,()),swprintf(0,0,1,()),vsprintf(0,0,1,()),asprintf(0,0,1,()),vasprintf(0,0,1,())
+,fprintf(0,3,1,(-1,-1),(-1,-1),(-1,-1)),fwprintf(0,3,1,(-1,-1),(-1,-1),(-1,-1)),sprint(0,0,1,()),snprintf(0,4,1,(1,1),(-1,1),(-1,1),(-1,1)),SNPRINTF(0,4,1,(1,1),(-1,1),(-1,1),(-1,1)),_snprintf(0,0,1,()),_snwprintf(0,0,1,()),vsnprintf(0,0,1,()),Format(1,0,1,()),FormatV(1,0,1,())
+,FormatMessage(1,0,1,()),FormatMessageV(1,0,1,()),GetComboBoxInfo(1,0,1,());
