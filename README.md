@@ -20,7 +20,7 @@ files, totaling around 67.35 million lines of the source code. In
 the analysis, 134,750 files were converted into 1,731,072 RGB
 images, and the corresponding dataset is linked as follows: [Open-source software dataset](https://pan.baidu.com/s/1_gMgkMhjs_xO1OiN_s8JVA?pwd=26ou) or https://pan.baidu.com/s/13SwIcuMM8WGIecgoM2PTBA?pwd=an2s. The software information we collect is as follows:
 
-![image](https://github.com/user-attachments/assets/98a75f38-67dc-4a21-9629-5fde78c0b93c)
+![image](https://github.com/user-attachments/assets/2a89411f-32af-4119-9306-17da0f05ccf5)
 
 
 All corresponding RGB images produced are provided in this repository.
