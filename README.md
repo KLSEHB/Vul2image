@@ -46,6 +46,9 @@ Data statistics of the dataset are shown in the below table:
 | Vul               |  12,460        |
 
 ## How to run
+
+Code of C2PCVF，IR and Image generation are all in “1.Preprocessing code” 
+
 #### Convert source code to image
 ```shell
 cd ~/Vul2image
