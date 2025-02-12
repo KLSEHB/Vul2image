@@ -1,15 +1,14 @@
-# Vul2Image
-To validate Vul2Image, our dataset
-comprises 8,242 vulnerable and 14,676 non-vulnerable C/C++
-functions from the SARD([Source code dataset](https://pan.baidu.com/s/1HJtB050vPgZ7bRXax1exFw?pwd=2r7c)
-). Moreover, we integrated datasets
-from references [1], [2] and the National Vulnerability
-Database (NVD) [3], totaling 935 real software functions
-(160 vulnerable and 775 non-vulnerable). Accordingly, our
-validation dataset consists of 8,402 vulnerable functions and
-15,451 non-vulnerable functions and the corresponding dataset is linked as follows [Dataset](https://pan.baidu.com/s/16E3l0z2xAiZ8wq6tQskVBA?pwd=n3en). As shown in the following table.
+# Vul2image: A Quick Image-inspired and CNN-based Vulnerability Detection system
 
-![image](https://github.com/KLSEHB/Vul2image/assets/142284636/6706174a-5b1f-41e8-afd3-75e26f89e61f)
+## Dataset
+Our dataset is derived from the Software Assurance Reference Dataset (SARD). In addition to SARD, we have also utilized datasets from VulCNN and Devign. Links to the relevant sources are provided below.
+
+![image](https://github.com/user-attachments/assets/430d9548-c09d-479e-a085-271897ad7671)
+
+Vul2image dataset: 
+VulCNN dataset : "https://github.com/CGCL-codes/VulCNN/tree/main/dataset"
+Devign dataset : "https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF/edit"
+
 
 Moreover, we conducted vulnerability detection on multiple 
 open-source systems and software, including Linux, FFmpeg,
@@ -21,8 +20,39 @@ images, and the corresponding dataset is linked as follows: [Open-source softwar
 
 ![image](https://github.com/KLSEHB/Vul2image/assets/142284636/2cba528c-930a-46ab-b22c-13fe058de843)
 
-
 All corresponding RGB images produced are provided in this repository.
+
+
+### Data Statistics
+Data statistics of the dataset are shown in the below table:
+
+| our dataset | #Examples |
+|--------------|-------------|
+| Non-Vul      |  15,006        |
+| Vul               |  8,242          |
+
+| VulCNN       | #Examples |
+|--------------|-------------|
+| Non-Vul      |  21,057        |
+| Vul               |  12,303        |
+
+| Devign         | #Examples |
+|--------------|-------------|
+| Non-Vul      |  14,858        |
+| Vul               |  12,460        |
+
+## How to run
+#### Convert source code to image
+```shell
+cd ~/Vul2image
+python CodeScript_new.py /home/username/Vul2image/codetranslate_linux/bin/x64/Release/codetranslate_linux.out /home/username/Vul2image/codetranslate_linux/config/1.txt /home/username/Vul2image/data/SRAD_data/ /home/username/Vul2image/codetranslate_linux/config/12.txt /home/username/Vul2image/codetranslate_linux/config/19.txt /home/username/Vul2image/codetranslate_linux/config/PicNum.txt /home/username/Vul2image/codetranslate_linux/config/PicNum2.txt /home/username/Vul2image/codetranslate_linux/Release_result/fun_Vul/ /home/username/Vul2image/codetranslate_linux/Release_result/fun_No-Vul/ /home/username/Vul2image/codetranslate_linux/Release_result/NotAllConvertIR/ /home/username/Vul2image/codetranslate_linux/Release_result/PVCF_Vul/ /home/username/Vul2image/codetranslate_linux/Release_result/PVCF_No-Vul/ /home/username/Vul2image/codetranslate_linux/Release_result/RunTime/ 0
+```
+
+#### Train CNN
+```shell
+cd ~/Vul2image/scr/CNN
+python CNN_pytorch.py 
+```
 
 [1]Lin, Guanjun, Wei Xiao, Jun Zhang, and Yang Xiang. ”Deep learning-
 based vulnerable function detection: A benchmark.” In Proceedings of
